@@ -1,0 +1,16 @@
+{
+  "name": "local-travel-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "공공데이터 + AI 지역 여행 추천 앱",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
