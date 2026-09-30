@@ -2,3 +2,7 @@ node_modules/
 .env
 *.log
 .cache/
+.vercel
+
+.vercel
+.env*
